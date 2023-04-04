@@ -1,0 +1,4 @@
+{
+    "git.autofetchPeriod": 1800,
+    "git.autofetch": true
+}
