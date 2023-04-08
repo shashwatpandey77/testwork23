@@ -14,9 +14,15 @@ class svector:
         out = sum**(1/num)
         return(out)
     
+    def vunit(self):
+        unit = [i/self.norm(2) for i in self.vinp]
+        return(unit)
+    
 
 
 
-x = svector([2,2,1])
+x = svector([1,1,1])
 print(x.norm(2))
+print(x.vunit())
+
 
